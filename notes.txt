@@ -13,3 +13,14 @@ snippet.save()
 from stats.serializers import SnippetSerializer
 serializer = SnippetSerializer()
 print(repr(serializer))
+
+
+    {
+        "owner": 2,
+        "title": "",
+        "code": "print \"hello, world\"\n",
+        "linenos": false,
+        "language": "python",
+        "style": "friendly"
+    }
+
